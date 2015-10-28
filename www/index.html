@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="page" data-theme="a">
+            <div data-role="header">
+                <h1>Welcome to our Cinema</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-filter="true" data-inset="true">
+                    <li>
+                        <img src ="images/Scouts-Guide-to-the-Zombie-Apocalypse.jpg">
+                        <a href="#page2"> The Ghost Dimension
+                            <p> Such a scary movie</p></a>
+                    </li>
+                    <li>
+                        <img src ="images/heart-attack.jpg">
+                        <a href="#page3"> Pain <p> The hurt movie</p></a>
+                    </li>
+                    <li>
+                        <img src="images/3D-The-Last-Witch-Hunter.jpg">
+                        <a href="#page4"> Fighting <p> Fighting field</p></a>
+
+                    </li>
+                </ul>
+                <a href="#page1"> Go to Movie</a>
+            </div>
+
+            <div data-role="footer">
+                <p>Caca Cinema</p>
+            </div>
+        </div>
+
+        <div data-role="page" id="page1" data-theme="a">
+            <div data-role="header">
+                <a href="#page" data-rel="back" data-role="button" data-icon="back"> Back</a>
+                <h3> Movie </h3>
+            </div>
+            <div data-role="content" id="horor">
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fChx_YZUAR0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div style="float:left;">
+                    <h3> Horor </h3>
+                    <p> Run Time:120 mn</p>
+                    <p> Rating: PG</p>
+                    <p> Genre: Drama</p>
+                    <p> Content Advice: Khmer Dubbed </p>
+                    <p> Opening Datee: Thursday, 29 October 2015</p>
+                </div>
+            </div>  
+            <div data-role="content" id="roman">  
+                <div id="player1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Emth-wTtsNM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div style="float:left;">
+                    <h3> Roman</h3>
+                    <p> Run Time:160 mn</p>
+                    <p> Rating: PG</p>
+                    <p> Genre: Funny</p>
+                    <p> Content Advice: Khmer Dubbed </p>
+                    <p> Opening Datee: Thursday, 30 October 2015</p>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="page2" data-theme="a">
+            <div data-role="header">
+                <a href="#page" data-rel="back" data-role="button" data-icon="back"> Back to Main Page</a>
+                <h3> Go to the hell</h3>
+            </div>
+            <div data-role="content">
+                <div>
+                    <img src="images/Scouts-Guide-to-the-Zombie-Apocalypse.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="page3" data-theme="a">
+            <div data-role="header">
+                <a href="#page" data-rel="back" data-role="button" data-icon="back">Back to Main Page</a>
+                <h3> Heart Attack</h3>
+            </div>
+            <div data-role="content">
+                <div>
+                    <img src="images/heart-attack.jpg">
+                </div>
+                <div>
+                    <h3> Heart Attack</h3>
+                    <p> Run Time:160 mn</p>
+                    <p> Rating: PG</p>
+                    <p> Genre: Funny</p>
+                    <p> Content Advice: Khmer Dubbed </p>
+                    <p> Opening Date: Thursday, 30 October 2015</p>
+                </div>
+                <button><a href="#page5" data-role="button"></a> Book</button>
+            </div>
+
+            <div data-role="page" id="page4" data-theme="a">
+                <div data-role="header">
+                    <a href="#page" data-rel="back" data-role="button" data-icon="back">Back to Main Page</a>
+                    <h3> The Last Witch Hunter</h3>
+                </div>
+                <div data-role="content">
+                    <div>
+                        <img src="images/3D-The-Last-Witch-Hunter.jpg">
+                    </div>
+                </div>
+
+                <div data-role="page" id="page3" data-theme="a">
+            <div data-role="header">
+                <a href="#page" data-rel="back" data-role="button" data-icon="back">Back to Main Page</a>
+                <h3> Heart Attack</h3>
+            </div>
+            <div data-role="content">
+                <div>
+                    <img src="images/heart-attack.jpg">
+                </div>
+                <div>
+                    <h3> Heart Attack</h3>
+                    <p> Run Time:160 mn</p>
+                    <p> Rating: PG</p>
+                    <p> Genre: Funny</p>
+                    <p> Content Advice: Khmer Dubbed </p>
+                    <p> Opening Date: Thursday, 30 October 2015</p>
+                </div>
+                
+            </div>
+
+            <div data-role="page" id="page5" data-theme="a">
+                <div data-role="header">
+                    <a href="#page" data-rel="back" data-role="button" data-icon="back">Back</a>
+                    <h3> Welcome to our Booking</h3>
+                </div>
+                <div data-role="content">
+                    <table>
+                        <tr>
+                            <td> Name</td>
+                            <td> <input type="text"></td>
+                        </tr>
+                    </table>
+                </div>
+
+
+
+
+
+            </div>
+    </body>
+</html>

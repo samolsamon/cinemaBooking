@@ -102,7 +102,10 @@
                     <p> Content Advice: Khmer Dubbed </p>
                     <p> Opening Date: Thursday, 30 October 2015</p>
                 </div>
-                <button><a href="#page5" data-role="button"></a> Book</button>
+                <div data-role="main" class="ui-content">
+                    <a href="#pageBook" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all"> Book
+                    </a>
+                </div>
             </div>
 
             <div data-role="page" id="page4" data-theme="a">
@@ -117,43 +120,64 @@
                 </div>
 
                 <div data-role="page" id="page3" data-theme="a">
-            <div data-role="header">
-                <a href="#page" data-rel="back" data-role="button" data-icon="back">Back to Main Page</a>
-                <h3> Heart Attack</h3>
-            </div>
-            <div data-role="content">
-                <div>
-                    <img src="images/heart-attack.jpg">
-                </div>
-                <div>
-                    <h3> Heart Attack</h3>
-                    <p> Run Time:160 mn</p>
-                    <p> Rating: PG</p>
-                    <p> Genre: Funny</p>
-                    <p> Content Advice: Khmer Dubbed </p>
-                    <p> Opening Date: Thursday, 30 October 2015</p>
-                </div>
-                
-            </div>
+                    <div data-role="header">
+                        <a href="#page" data-rel="back" data-role="button" data-icon="back">Back to Main Page</a>
+                        <h3> Heart Attack</h3>
+                    </div>
+                    <div data-role="content">
+                        <div>
+                            <img src="images/heart-attack.jpg">
+                        </div>
+                        <div>
+                            <h3> Heart Attack</h3>
+                            <p> Run Time:160 mn</p>
+                            <p> Rating: PG</p>
+                            <p> Genre: Funny</p>
+                            <p> Content Advice: Khmer Dubbed </p>
+                            <p> Opening Date: Thursday, 30 October 2015</p>
+                        </div>
 
-            <div data-role="page" id="page5" data-theme="a">
-                <div data-role="header">
-                    <a href="#page" data-rel="back" data-role="button" data-icon="back">Back</a>
-                    <h3> Welcome to our Booking</h3>
-                </div>
-                <div data-role="content">
-                    <table>
-                        <tr>
-                            <td> Name</td>
-                            <td> <input type="text"></td>
-                        </tr>
-                    </table>
-                </div>
+                    </div>
+
+                    <div data-role="page" id="page5" data-theme="a">
+                        <div data-role="header">
+                            <a href="#page" data-rel="back" data-role="button" data-icon="back">Back</a>
+                            <h3> Welcome to our Booking</h3>
+                        </div>
+                        <div data-role="content">
+                            <table>
+                                <tr>
+                                    <td> Name</td>
+                                    <td> <input type="text"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div data-role="page" id="pageBook" data-theme="a">
+                            <div data-rel="header">
+                                <h3> Welcome to booking </h3>
+                            </div>
+                            <div data-role="content">
+                                <table>
+                                    <tr>
+                                        <td> Time: </td>
+                                        <td>
+                                            <select>
+                                                <option> 10:30 </option>
+                                                <option> 12:30 </option>
+                                                <option> 17:30 </option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
 
 
 
 
 
-            </div>
-    </body>
-</html>
+                    </div>
+                    </body>
+                    </html>
